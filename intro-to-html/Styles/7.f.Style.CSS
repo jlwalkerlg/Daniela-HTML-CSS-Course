@@ -1,0 +1,30 @@
+.Email {
+  color: rgb(117, 110, 110);
+  font-size: 15px;
+  margin-top: 0px;
+  margin-bottom: 12px;
+  font-family: arial;
+}
+.boxtext {
+  width: 360px;
+  border-width: 1.5px;
+  border-style: solid;
+  font-size: 23px;
+  border-radius: 5px;
+}
+.description {
+  color: rgb(117, 110, 110);
+  font-family: arial;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.button {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border: none;
+  font-style: center;
+  padding: 17px 130px;
+  border-radius: 30px;
+  font-size: 20px;
+  margin-top: 10px;
+}

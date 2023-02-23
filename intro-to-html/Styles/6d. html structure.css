@@ -1,0 +1,12 @@
+p {
+  font-family: montserrat;
+}
+.title {
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.description {
+  text-align: center;
+}

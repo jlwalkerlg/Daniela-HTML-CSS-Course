@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        height: 3000px;
+      }
+
+      .grey-box {
+        background-color: gray;
+        height: 180px;
+        width: 320px;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+      }
+
+      .close-button {
+        background-color: black;
+        color: white;
+        border-radius: 50px;
+        border: none;
+        width: 30px;
+        height: 30px;
+        font-weight: bold;
+        cursor: pointer;
+        position: absolute;
+        top: -15px;
+        left: -15px;
+      }
+
+      .timestamp {
+        background-color: black;
+        color: white;
+        padding: 5px;
+        font-family: roboto, arial;
+        font-weight: bold;
+        font-size: 15px;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grey-box">
+      <button class="close-button">X</button>
+      <div class="timestamp">0:29</div>
+    </div>
+  </body>
+</html>

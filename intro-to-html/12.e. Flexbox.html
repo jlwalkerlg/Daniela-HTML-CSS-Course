@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .master-div {
+        border-width: 2px;
+        border-style: solid;
+        border-color: rgb(203, 198, 198);
+        border-radius: 7px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+      }
+      .first-line,
+      .second-line,
+      .third-line {
+        display: flex;
+        flex-direction: row;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .first-line,
+      .second-line {
+        margin-bottom: 13px;
+      }
+
+      .badges {
+        width: 30px;
+        border: none;
+        background-color: rgb(39, 95, 227);
+        color: white;
+        text-align: center;
+        border-radius: 50px;
+        padding: 4px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .home,
+      .notifications,
+      .messages {
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="master-div">
+      <div class="first-line">
+        <div class="home">Home</div>
+
+        <div class="badges">14</div>
+      </div>
+
+      <div class="second-line">
+        <div class="notifications">Notifications</div>
+
+        <div class="badges">3</div>
+      </div>
+
+      <div class="third-line">
+        <div class="messages">Messages</div>
+        <div class="badges">5</div>
+      </div>
+    </div>
+  </body>
+</html>

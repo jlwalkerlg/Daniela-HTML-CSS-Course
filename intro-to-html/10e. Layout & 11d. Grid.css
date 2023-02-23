@@ -1,0 +1,65 @@
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.mutual-friends {
+  color: rgb(146, 143, 143);
+}
+
+.button {
+  background-color: rgb(24, 74, 223);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  width: 110px;
+  cursor: pointer;
+  margin-bottom: 13px;
+}
+
+.div-main-image {
+  border: none;
+  box-shadow: 0px 0px 5px rgb(188, 184, 184);
+}
+
+.animal-image {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  padding: 0px;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50px;
+  vertical-align: middle;
+}
+
+.second-vertical-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  align-items: center;
+}
+
+.master-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+}
+
+.animal-info-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 10px;
+  margin-left: 12px;
+}

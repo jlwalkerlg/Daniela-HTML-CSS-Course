@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .body {
+        height: 3000px;
+        margin-left: 70px;
+      }
+
+      .master-div {
+        display: flex;
+      }
+
+      .animal-images-div {
+        background-color: rgb(43, 42, 42);
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        width: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .animal-image {
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        border-radius: 50px;
+        margin-top: 10px;
+      }
+
+      .second-colum {
+        background-color: rgb(61, 57, 57);
+        position: fixed;
+        top: 0px;
+        bottom: 0px;
+        width: 70px;
+        width: 180px;
+        padding: 18px;
+      }
+
+      .first-line {
+        display: flex;
+      }
+
+      .info {
+        color: white;
+        font-size: 15px;
+        flex: 1;
+        margin-bottom: 10px;
+      }
+
+      .plus-sign {
+        color: rgb(172, 172, 172);
+        margin-bottom: 12px;
+        font-weight: bold;
+      }
+
+      .text {
+        color: rgb(172, 172, 172);
+        margin-bottom: 12px;
+      }
+    </style>
+  </head>
+  <body class="body">
+    <div class="master-div">
+      <div class="animal-images-div">
+        <div><img class="animal-image" src="cat.jpg" alt="First Cat" /></div>
+        <div><img class="animal-image" src="cat2.jpeg" alt="Second Cat" /></div>
+        <div><img class="animal-image" src="dog.jpeg" alt="Dog" /></div>
+      </div>
+      <div class="second-colum">
+        <div class="first-line">
+          <div class="info">INFO</div>
+          <div class="plus-sign">&plus;</div>
+        </div>
+        <div class="text"># new-videos</div>
+        <div class="text"># updates</div>
+        <div class="text"># faq</div>
+      </div>
+    </div>
+  </body>
+</html>

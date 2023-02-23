@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .master-div {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        max-width: 530px;
+      }
+      .row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 15px;
+      }
+
+      .image-div {
+        width: 90px;
+      }
+
+      .image {
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 50px;
+      }
+
+      .info-animal {
+        display: row;
+        flex-direction: column;
+        flex: 1;
+      }
+      .description-1,
+      .description-2 {
+        color: grey;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .description-1 {
+        margin-bottom: 6px;
+      }
+      .name {
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 6px;
+      }
+
+      .button {
+        background-color: rgb(19, 146, 237);
+        border: none;
+        color: white;
+        padding: 10px 13px;
+        font: arial;
+        font-weight: bold;
+        border-radius: 7px;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="master-div">
+      <div class="row">
+        <div class="image-div">
+          <img class="image" src="cat.jpg" alt="Cat" />
+        </div>
+        <div class="info-animal">
+          <div class="name"><strong>Oliver</strong></div>
+          <div class="description-1">The Cat</div>
+          <div class="description-2">Popular</div>
+        </div>
+        <div><button class="button">Follow</button></div>
+      </div>
+
+      <div class="row">
+        <div class="image-div">
+          <img class="image" src="cat2.jpeg" alt="Cat" />
+        </div>
+        <div class="info-animal">
+          <div class="name"><strong>Mimi</strong></div>
+          <div class="description-1">Sleepy Cat</div>
+          <div class="description-2">Popular</div>
+        </div>
+        <div><button class="button">Follow</button></div>
+      </div>
+
+      <div class="row">
+        <div class="image-div">
+          <img class="image" src="dog.jpeg" alt="Cat" />
+        </div>
+        <div class="info-animal">
+          <div class="name"><strong>Rex</strong></div>
+          <div class="description-1">Happy Bulldog</div>
+          <div class="description-2">Popular</div>
+        </div>
+        <div><button class="button">Follow</button></div>
+      </div>
+    </div>
+  </body>
+</html>

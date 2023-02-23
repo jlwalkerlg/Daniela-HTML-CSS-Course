@@ -1,0 +1,149 @@
+.master-grid {
+  display: grid;
+  height: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 16px;
+  margin-bottom: 1000px;
+}
+
+@media (max-width: 750px) {
+  .master-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1125px) {
+  .master-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.image-row {
+  position: relative;
+}
+
+.image {
+  width: 100%;
+}
+
+.video-title {
+  font-weight: 500;
+  margin-top: 0px;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.anchor-video-title {
+  text-decoration: none;
+  color: black;
+}
+
+.anchor-video-author {
+  text-decoration: none;
+  color: rgb(96, 96, 96);
+}
+
+.channel-picture {
+  width: 50px;
+  vertical-align: top;
+  position: relative;
+}
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.profile-picture {
+  width: 36px;
+  border-radius: 50px;
+}
+
+.profile-picture-row {
+  margin-top: 8px;
+}
+
+.video-author,
+.video-stats {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+
+.video-author {
+  margin-bottom: 4px;
+}
+
+.video-time {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px;
+  border-radius: 2px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+}
+
+.parent-tooltip .tooltip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 2px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgb(188, 188, 188);
+  background-color: white;
+  width: 200px;
+  padding: 10px;
+  position: absolute;
+  top: 39px;
+  z-index: 100;
+  opacity: 0;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.parent-tooltip:hover .tooltip {
+  opacity: 1;
+}
+
+.profile-picture-tooltip {
+  width: 50px;
+  border-radius: 50px;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.info-tooltip {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-name-tooltip {
+  font-family: roboto, arial;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.number-subscribers-tooltip {
+  font-size: 13px;
+  font-family: roboto, arial;
+  color: rgb(96, 96, 96);
+}
+
+@media (min-width: 1000px) {
+  .video-title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .video-author,
+  .video-stats {
+    font-size: 14px;
+  }
+}

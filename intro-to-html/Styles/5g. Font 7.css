@@ -1,0 +1,25 @@
+ p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .free-code1 {
+    font-weight: bold;
+  }
+
+  .free-code2 {
+    color: rgb(107, 103, 103);
+  }
+
+  .paragraph {
+    width: 500px;
+    margin-bottom: 0px;
+  }
+
+  .third-line {
+    margin-top: 30px;
+  }
+
+  .arroba {
+    color: rgb(28, 126, 245);
+    font-weight: bold;
+  }
